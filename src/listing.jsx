@@ -3,6 +3,7 @@ export default function Listing(props) {
     return (
         < div className="item-list" >
             {data.map(el => {
+                
                 return (
                     <div className="item" key={el.listing_id} >
                         <div className="item-image">
